@@ -1,0 +1,75 @@
+.title {
+    text-align: center;
+    color: #212ea0;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 70px 0 30px
+  }
+
+  .title h2 {
+    font-size: 32px;
+    color: #000f38;
+    margin-top: 5px;
+    text-transform: none
+  }
+
+  .campus-content {
+    margin: 80px auto;
+    width: 70%;
+    text-align: center
+  }
+
+  .gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px
+  }
+
+  .gallery img {
+    width: 23%;
+    border-radius: 10px
+  }
+
+  @media (max-width: 800px) {
+    .gallery {
+        flex-wrap:wrap
+    }
+  
+    .gallery img {
+        width: 48%;
+        margin-bottom: 25px
+    }
+  }
+
+  .btn {
+    background: #fff;
+    color: #212121;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center
+  }
+
+  .btn.dark-btn {
+    background: #212ea0;
+    color: #fff
+  }
+
+  @media (max-width: 1200px) {
+    .container {
+        padding-left:5%;
+        padding-right: 5%
+    }
+  
+    .btn {
+        padding: 14px 22px
+    }
+  }
+  
